@@ -1,0 +1,5 @@
+D:\Softwares\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\code\slam-RM\FreeRTOS-Frame
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug
