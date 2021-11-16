@@ -47,8 +47,7 @@ else ()
 endif ()
 
 include_directories(
-        Core/Inc
-        Drivers/STM32F4xx_HAL_Driver/Inc
+        Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc
         Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
         Middlewares/Third_Party/FreeRTOS/Source/include
         Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS

@@ -193,6 +193,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/freertos.c.obj: ../Middlewares/Third_
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/freertos.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/freertos.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/freertos.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/freertos.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/freertos.c.obj: ../Core/Src/freertos.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/gpio.c.obj: ../Core/Inc/gpio.h
@@ -395,6 +396,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/main.c.obj: ../Middlewares/Third_Part
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/main.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/main.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/main.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/main.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/main.c.obj: ../USB_DEVICE/App/usb_device.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/main.c.obj: ../USB_DEVICE/Target/usbd_conf.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
@@ -539,6 +541,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Th
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
@@ -2005,6 +2008,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 
@@ -2017,6 +2021,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/crouti
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Core/Inc/FreeRTOSConfig.h
@@ -2029,6 +2034,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Core/Inc/FreeRTOSConfig.h
@@ -2038,6 +2044,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Core/Inc/FreeRTOSConfig.h
@@ -2048,6 +2055,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portab
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj: ../Core/Inc/FreeRTOSConfig.h
@@ -2058,6 +2066,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portab
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Core/Inc/FreeRTOSConfig.h
@@ -2070,6 +2079,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Core/Inc/FreeRTOSConfig.h
@@ -2081,6 +2091,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Core/Inc/FreeRTOSConfig.h
@@ -2093,6 +2104,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Core/Inc/FreeRTOSConfig.h
@@ -2105,6 +2117,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.obj: ../Core/Inc/main.h
