@@ -3,15 +3,15 @@
 
 # compile ASM with E:/Softwares/gcc-arm-none-eabo-9-2019-q4/bin/arm-none-eabi-gcc.exe
 # compile C with E:/Softwares/gcc-arm-none-eabo-9-2019-q4/bin/arm-none-eabi-gcc.exe
-ASM_FLAGS = -g   -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+ASM_FLAGS = -g   -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
 
-ASM_DEFINES = -DSTM32F427xx -DUSE_HAL_DRIVER
+ASM_DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DSTM32F427xx -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -IE:\code\slam-RM\FreeRTOS-Frame\Core\Inc -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Inc -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\CMSIS\Include -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\include -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F 
+ASM_INCLUDES = -IE:\code\slam-RM\FreeRTOS-Frame\Core\Inc -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Inc -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\include -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\CMSIS\Include 
 
-C_FLAGS = -g   -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+C_FLAGS = -g   -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 
-C_DEFINES = -DSTM32F427xx -DUSE_HAL_DRIVER
+C_DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DSTM32F427xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -IE:\code\slam-RM\FreeRTOS-Frame\Core\Inc -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Inc -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\CMSIS\Include -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\include -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F 
+C_INCLUDES = -IE:\code\slam-RM\FreeRTOS-Frame\Core\Inc -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Inc -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\include -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS -IE:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IE:\code\slam-RM\FreeRTOS-Frame\Drivers\CMSIS\Include 
 

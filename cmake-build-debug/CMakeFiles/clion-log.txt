@@ -1,4 +1,4 @@
-D:\Softwares\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\code\slam-RM\FreeRTOS-Frame
+D:\Softwares\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=E:/Softwares/gcc-arm-none-eabo-9-2019-q4/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=E:/Softwares/gcc-arm-none-eabo-9-2019-q4/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" E:\code\slam-RM\FreeRTOS-Frame
 -- Minimal optimization, debug info included
 -- Configuring done
 -- Generating done

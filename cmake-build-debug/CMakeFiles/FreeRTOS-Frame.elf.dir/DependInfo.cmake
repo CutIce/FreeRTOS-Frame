@@ -11,6 +11,9 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
+  "ARM_MATH_CM4"
+  "ARM_MATH_MATRIX_CHECK"
+  "ARM_MATH_ROUNDING"
   "STM32F427xx"
   "USE_HAL_DRIVER"
   )
@@ -20,12 +23,11 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Core/Inc"
   "../Drivers/STM32F4xx_HAL_Driver/Inc"
   "../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
-  "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
-  "../Drivers/CMSIS/Include"
-  "../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F"
   "../Middlewares/Third_Party/FreeRTOS/Source/include"
   "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
-  "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+  "../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F"
+  "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+  "../Drivers/CMSIS/Include"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "E:/code/slam-RM/FreeRTOS-Frame/Core/Src/adc.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/adc.c.obj"
@@ -85,6 +87,9 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
+  "ARM_MATH_CM4"
+  "ARM_MATH_MATRIX_CHECK"
+  "ARM_MATH_ROUNDING"
   "STM32F427xx"
   "USE_HAL_DRIVER"
   )
@@ -94,12 +99,11 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Core/Inc"
   "../Drivers/STM32F4xx_HAL_Driver/Inc"
   "../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
-  "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
-  "../Drivers/CMSIS/Include"
-  "../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F"
   "../Middlewares/Third_Party/FreeRTOS/Source/include"
   "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
-  "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+  "../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F"
+  "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+  "../Drivers/CMSIS/Include"
   )
 
 # Targets to which this target links.
