@@ -713,22 +713,9 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
 
-CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
-CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
-	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
-
-CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i"
-	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
-
-CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s"
-	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
-
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -738,6 +725,19 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portab
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.i"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c > CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c.i
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.s"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c.s
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
@@ -899,8 +899,8 @@ FreeRTOS__Frame_elf_OBJECTS = \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" \
-"CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" \
+"CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
@@ -963,8 +963,8 @@ FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/Fr
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj

@@ -34,7 +34,7 @@
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
-					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Drivers/CMSIS/Include"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/App"/>
@@ -72,7 +72,7 @@
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
-					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Drivers/CMSIS/Include"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/App"/>
@@ -528,13 +528,13 @@
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/list.c">
 			<Option target="FreeRTOS-Frame.elf"/>
 		</Unit>
-		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
-			<Option target="FreeRTOS-Frame.elf"/>
-		</Unit>
-		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
-			<Option target="FreeRTOS-Frame.elf"/>
-		</Unit>
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h">
 			<Option target="FreeRTOS-Frame.elf"/>
 		</Unit>
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/queue.c">

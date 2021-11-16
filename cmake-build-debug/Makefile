@@ -1465,33 +1465,6 @@ Middlewares/Third_Party/FreeRTOS/Source/list.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.s
 
-Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj
-
-# target to build an object file
-Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-
-Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
-
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i
-
-# target to preprocess a source file
-Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
-
-Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
-
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s
-
-# target to generate assembly for a file
-Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
-
 Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj: Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
 
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj
@@ -1518,6 +1491,33 @@ Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s: Middlewares/T
 Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.obj: Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.i: Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.i
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.s: Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.s
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/queue.obj: Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
 
@@ -1900,12 +1900,12 @@ help:
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/list.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/list.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/list.s
-	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj
-	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i
-	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.s
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/queue.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/queue.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/queue.s
