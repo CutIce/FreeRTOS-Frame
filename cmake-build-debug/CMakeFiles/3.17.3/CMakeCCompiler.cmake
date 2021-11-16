@@ -25,8 +25,8 @@ set(CMAKE_LINKER "E:/Softwares/gcc-arm-none-eabo-9-2019-q4/bin/arm-none-eabi-ld.
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
-set(CMAKE_C_COMPILER_WORKS 1)
-set(CMAKE_C_ABI_COMPILED FALSE)
+set(CMAKE_C_COMPILER_WORKS TRUE)
+set(CMAKE_C_ABI_COMPILED TRUE)
 set(CMAKE_COMPILER_IS_MINGW )
 set(CMAKE_COMPILER_IS_CYGWIN )
 if(CMAKE_COMPILER_IS_CYGWIN)
@@ -45,8 +45,8 @@ set(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)
 set(CMAKE_C_LINKER_PREFERENCE 10)
 
 # Save compiler ABI information.
-set(CMAKE_C_SIZEOF_DATA_PTR "")
-set(CMAKE_C_COMPILER_ABI "")
+set(CMAKE_C_SIZEOF_DATA_PTR "4")
+set(CMAKE_C_COMPILER_ABI "ELF")
 set(CMAKE_C_LIBRARY_ARCHITECTURE "")
 
 if(CMAKE_C_SIZEOF_DATA_PTR)
@@ -70,7 +70,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "E:/Softwares/gcc-arm-none-eabo-9-2019-q4/lib/gcc/arm-none-eabi/9.2.1/include;E:/Softwares/gcc-arm-none-eabo-9-2019-q4/lib/gcc/arm-none-eabi/9.2.1/include-fixed;E:/Softwares/gcc-arm-none-eabo-9-2019-q4/arm-none-eabi/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

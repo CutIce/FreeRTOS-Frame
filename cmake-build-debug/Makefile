@@ -547,33 +547,6 @@ Core/Src/usart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usart.c.s
 .PHONY : Core/Src/usart.c.s
 
-Core/Src/usb_otg.obj: Core/Src/usb_otg.c.obj
-
-.PHONY : Core/Src/usb_otg.obj
-
-# target to build an object file
-Core/Src/usb_otg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usb_otg.c.obj
-.PHONY : Core/Src/usb_otg.c.obj
-
-Core/Src/usb_otg.i: Core/Src/usb_otg.c.i
-
-.PHONY : Core/Src/usb_otg.i
-
-# target to preprocess a source file
-Core/Src/usb_otg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usb_otg.c.i
-.PHONY : Core/Src/usb_otg.c.i
-
-Core/Src/usb_otg.s: Core/Src/usb_otg.c.s
-
-.PHONY : Core/Src/usb_otg.s
-
-# target to generate assembly for a file
-Core/Src/usb_otg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usb_otg.c.s
-.PHONY : Core/Src/usb_otg.c.s
-
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
@@ -1276,6 +1249,114 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
 
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
 
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
@@ -1384,6 +1465,33 @@ Middlewares/Third_Party/FreeRTOS/Source/list.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.s
 
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+
 Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj: Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
 
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj
@@ -1410,33 +1518,6 @@ Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s: Middlewares/T
 Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
-
-Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.obj: Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj
-
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.obj
-
-# target to build an object file
-Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj
-
-Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.i: Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.i
-
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.i
-
-# target to preprocess a source file
-Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.i
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.i
-
-Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.s: Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.s
-
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.s
-
-# target to generate assembly for a file
-Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.s
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/queue.obj: Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
 
@@ -1546,6 +1627,114 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
+USB_DEVICE/App/usb_device.obj: USB_DEVICE/App/usb_device.c.obj
+
+.PHONY : USB_DEVICE/App/usb_device.obj
+
+# target to build an object file
+USB_DEVICE/App/usb_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.obj
+.PHONY : USB_DEVICE/App/usb_device.c.obj
+
+USB_DEVICE/App/usb_device.i: USB_DEVICE/App/usb_device.c.i
+
+.PHONY : USB_DEVICE/App/usb_device.i
+
+# target to preprocess a source file
+USB_DEVICE/App/usb_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.i
+.PHONY : USB_DEVICE/App/usb_device.c.i
+
+USB_DEVICE/App/usb_device.s: USB_DEVICE/App/usb_device.c.s
+
+.PHONY : USB_DEVICE/App/usb_device.s
+
+# target to generate assembly for a file
+USB_DEVICE/App/usb_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.s
+.PHONY : USB_DEVICE/App/usb_device.c.s
+
+USB_DEVICE/App/usbd_cdc_if.obj: USB_DEVICE/App/usbd_cdc_if.c.obj
+
+.PHONY : USB_DEVICE/App/usbd_cdc_if.obj
+
+# target to build an object file
+USB_DEVICE/App/usbd_cdc_if.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.obj
+
+USB_DEVICE/App/usbd_cdc_if.i: USB_DEVICE/App/usbd_cdc_if.c.i
+
+.PHONY : USB_DEVICE/App/usbd_cdc_if.i
+
+# target to preprocess a source file
+USB_DEVICE/App/usbd_cdc_if.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.i
+
+USB_DEVICE/App/usbd_cdc_if.s: USB_DEVICE/App/usbd_cdc_if.c.s
+
+.PHONY : USB_DEVICE/App/usbd_cdc_if.s
+
+# target to generate assembly for a file
+USB_DEVICE/App/usbd_cdc_if.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.s
+
+USB_DEVICE/App/usbd_desc.obj: USB_DEVICE/App/usbd_desc.c.obj
+
+.PHONY : USB_DEVICE/App/usbd_desc.obj
+
+# target to build an object file
+USB_DEVICE/App/usbd_desc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+.PHONY : USB_DEVICE/App/usbd_desc.c.obj
+
+USB_DEVICE/App/usbd_desc.i: USB_DEVICE/App/usbd_desc.c.i
+
+.PHONY : USB_DEVICE/App/usbd_desc.i
+
+# target to preprocess a source file
+USB_DEVICE/App/usbd_desc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_desc.c.i
+.PHONY : USB_DEVICE/App/usbd_desc.c.i
+
+USB_DEVICE/App/usbd_desc.s: USB_DEVICE/App/usbd_desc.c.s
+
+.PHONY : USB_DEVICE/App/usbd_desc.s
+
+# target to generate assembly for a file
+USB_DEVICE/App/usbd_desc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_desc.c.s
+.PHONY : USB_DEVICE/App/usbd_desc.c.s
+
+USB_DEVICE/Target/usbd_conf.obj: USB_DEVICE/Target/usbd_conf.c.obj
+
+.PHONY : USB_DEVICE/Target/usbd_conf.obj
+
+# target to build an object file
+USB_DEVICE/Target/usbd_conf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+.PHONY : USB_DEVICE/Target/usbd_conf.c.obj
+
+USB_DEVICE/Target/usbd_conf.i: USB_DEVICE/Target/usbd_conf.c.i
+
+.PHONY : USB_DEVICE/Target/usbd_conf.i
+
+# target to preprocess a source file
+USB_DEVICE/Target/usbd_conf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/Target/usbd_conf.c.i
+.PHONY : USB_DEVICE/Target/usbd_conf.c.i
+
+USB_DEVICE/Target/usbd_conf.s: USB_DEVICE/Target/usbd_conf.c.s
+
+.PHONY : USB_DEVICE/Target/usbd_conf.s
+
+# target to generate assembly for a file
+USB_DEVICE/Target/usbd_conf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FreeRTOS-Frame.elf.dir\build.make CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/Target/usbd_conf.c.s
+.PHONY : USB_DEVICE/Target/usbd_conf.c.s
+
 startup/startup_stm32f427xx.obj: startup/startup_stm32f427xx.s.obj
 
 .PHONY : startup/startup_stm32f427xx.obj
@@ -1609,9 +1798,6 @@ help:
 	@echo ... Core/Src/usart.obj
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
-	@echo ... Core/Src/usb_otg.obj
-	@echo ... Core/Src/usb_otg.i
-	@echo ... Core/Src/usb_otg.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s
@@ -1690,6 +1876,18 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s
@@ -1702,12 +1900,12 @@ help:
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/list.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/list.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/list.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s
-	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.obj
-	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.i
-	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.s
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/queue.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/queue.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/queue.s
@@ -1720,6 +1918,18 @@ help:
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.s
+	@echo ... USB_DEVICE/App/usb_device.obj
+	@echo ... USB_DEVICE/App/usb_device.i
+	@echo ... USB_DEVICE/App/usb_device.s
+	@echo ... USB_DEVICE/App/usbd_cdc_if.obj
+	@echo ... USB_DEVICE/App/usbd_cdc_if.i
+	@echo ... USB_DEVICE/App/usbd_cdc_if.s
+	@echo ... USB_DEVICE/App/usbd_desc.obj
+	@echo ... USB_DEVICE/App/usbd_desc.i
+	@echo ... USB_DEVICE/App/usbd_desc.s
+	@echo ... USB_DEVICE/Target/usbd_conf.obj
+	@echo ... USB_DEVICE/Target/usbd_conf.i
+	@echo ... USB_DEVICE/Target/usbd_conf.s
 	@echo ... startup/startup_stm32f427xx.obj
 .PHONY : help
 

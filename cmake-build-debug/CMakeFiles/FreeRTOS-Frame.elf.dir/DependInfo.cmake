@@ -25,9 +25,13 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "../Middlewares/Third_Party/FreeRTOS/Source/include"
   "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
-  "../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F"
+  "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
   "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "../Drivers/CMSIS/Include"
+  "../USB_DEVICE/App"
+  "../USB_DEVICE/Target"
+  "../Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+  "../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "E:/code/slam-RM/FreeRTOS-Frame/Core/Src/adc.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/adc.c.obj"
@@ -45,7 +49,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/code/slam-RM/FreeRTOS-Frame/Core/Src/system_stm32f4xx.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/system_stm32f4xx.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Core/Src/tim.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/tim.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Core/Src/usart.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usart.c.obj"
-  "E:/code/slam-RM/FreeRTOS-Frame/Core/Src/usb_otg.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usb_otg.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
@@ -72,16 +75,24 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/code/slam-RM/FreeRTOS-Frame/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
+  "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
+  "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
+  "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
+  "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/croutine.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/list.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+  "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
-  "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/queue.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
   "E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/timers.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+  "E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/App/usb_device.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.obj"
+  "E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/App/usbd_cdc_if.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
+  "E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/App/usbd_desc.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
+  "E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/Target/usbd_conf.c" "E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -101,9 +112,13 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "../Middlewares/Third_Party/FreeRTOS/Source/include"
   "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
-  "../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F"
+  "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
   "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "../Drivers/CMSIS/Include"
+  "../USB_DEVICE/App"
+  "../USB_DEVICE/Target"
+  "../Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+  "../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
   )
 
 # Targets to which this target links.

@@ -576,14 +576,14 @@ void xPortSysTickHandler( void )
 			should not be executed again.  However, the original expected idle
 			time variable must remain unmodified, so a copy is taken. */
 			xModifiableIdleTime = xExpectedIdleTime;
-			configPRE_SLEEP_PROCESSING( xModifiableIdleTime );
+			configPRE_SLEEP_PROCESSING( &xModifiableIdleTime );
 			if( xModifiableIdleTime > 0 )
 			{
 				__asm volatile( "dsb" ::: "memory" );
 				__asm volatile( "wfi" );
 				__asm volatile( "isb" );
 			}
-			configPOST_SLEEP_PROCESSING( xExpectedIdleTime );
+			configPOST_SLEEP_PROCESSING( &xExpectedIdleTime );
 
 			/* Re-enable interrupts to allow the interrupt that brought the MCU
 			out of sleep mode to execute immediately.  see comments above

@@ -34,9 +34,13 @@
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
-					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F"/>
+					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Drivers/CMSIS/Include"/>
+					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/App"/>
+					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/Target"/>
+					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
 					<Add directory="e:\softwares\gcc-arm-none-eabo-9-2019-q4\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
 					<Add directory="e:\softwares\gcc-arm-none-eabo-9-2019-q4\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
 					<Add directory="e:\softwares\gcc-arm-none-eabo-9-2019-q4\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
@@ -68,9 +72,13 @@
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
-					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F"/>
+					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Drivers/CMSIS/Include"/>
+					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/App"/>
+					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/Target"/>
+					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
 					<Add directory="e:\softwares\gcc-arm-none-eabo-9-2019-q4\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
 					<Add directory="e:\softwares\gcc-arm-none-eabo-9-2019-q4\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
 					<Add directory="e:\softwares\gcc-arm-none-eabo-9-2019-q4\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
@@ -145,9 +153,6 @@
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Core/Inc/usart.h">
 			<Option target="FreeRTOS-Frame.elf"/>
 		</Unit>
-		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Core/Inc/usb_otg.h">
-			<Option target="FreeRTOS-Frame.elf"/>
-		</Unit>
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Core/Src/adc.c">
 			<Option target="FreeRTOS-Frame.elf"/>
 		</Unit>
@@ -191,9 +196,6 @@
 			<Option target="FreeRTOS-Frame.elf"/>
 		</Unit>
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Core/Src/usart.c">
-			<Option target="FreeRTOS-Frame.elf"/>
-		</Unit>
-		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Core/Src/usb_otg.c">
 			<Option target="FreeRTOS-Frame.elf"/>
 		</Unit>
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h">
@@ -433,6 +435,33 @@
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
 			<Option target="FreeRTOS-Frame.elf"/>
 		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
 			<Option target="FreeRTOS-Frame.elf"/>
 		</Unit>
@@ -499,13 +528,13 @@
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/list.c">
 			<Option target="FreeRTOS-Frame.elf"/>
 		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
-			<Option target="FreeRTOS-Frame.elf"/>
-		</Unit>
-		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c">
-			<Option target="FreeRTOS-Frame.elf"/>
-		</Unit>
-		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h">
 			<Option target="FreeRTOS-Frame.elf"/>
 		</Unit>
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
@@ -521,6 +550,30 @@
 			<Option target="FreeRTOS-Frame.elf"/>
 		</Unit>
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/STM32F427IIHx_FLASH.ld">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/App/usb_device.c">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/App/usb_device.h">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/App/usbd_cdc_if.c">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/App/usbd_cdc_if.h">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/App/usbd_desc.c">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/App/usbd_desc.h">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/Target/usbd_conf.c">
+			<Option target="FreeRTOS-Frame.elf"/>
+		</Unit>
+		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/USB_DEVICE/Target/usbd_conf.h">
 			<Option target="FreeRTOS-Frame.elf"/>
 		</Unit>
 		<Unit filename="E:/code/slam-RM/FreeRTOS-Frame/startup/startup_stm32f427xx.s">

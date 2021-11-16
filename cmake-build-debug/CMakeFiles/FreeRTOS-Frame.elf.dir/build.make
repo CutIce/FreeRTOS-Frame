@@ -271,22 +271,9 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usart.c.s"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Core\Src\usart.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Core\Src\usart.c.s
 
-CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usb_otg.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
-CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usb_otg.c.obj: ../Core/Src/usb_otg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usb_otg.c.obj"
-	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Core\Src\usb_otg.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Core\Src\usb_otg.c
-
-CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usb_otg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usb_otg.c.i"
-	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\slam-RM\FreeRTOS-Frame\Core\Src\usb_otg.c > CMakeFiles\FreeRTOS-Frame.elf.dir\Core\Src\usb_otg.c.i
-
-CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usb_otg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usb_otg.c.s"
-	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Core\Src\usb_otg.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Core\Src\usb_otg.c.s
-
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -299,7 +286,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
@@ -312,7 +299,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
@@ -325,7 +312,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
@@ -338,7 +325,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -351,7 +338,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -364,7 +351,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -377,7 +364,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -390,7 +377,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -403,7 +390,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -416,7 +403,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -429,7 +416,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -442,7 +429,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
@@ -455,7 +442,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
@@ -468,7 +455,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i: cmake_force
@@ -481,7 +468,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i: cmake_force
@@ -494,7 +481,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i: cmake_force
@@ -507,7 +494,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -520,7 +507,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -533,7 +520,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -546,7 +533,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -559,7 +546,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
@@ -572,7 +559,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -585,7 +572,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -598,7 +585,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -611,7 +598,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i: cmake_force
@@ -622,9 +609,61 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.s
 
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\slam-RM\FreeRTOS-Frame\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c > CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.i
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.s
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\slam-RM\FreeRTOS-Frame\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c > CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.i
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.s
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\slam-RM\FreeRTOS-Frame\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c > CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.i
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.s
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\slam-RM\FreeRTOS-Frame\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c > CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.i
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.s
+
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
@@ -637,7 +676,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -650,7 +689,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/crouti
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -663,7 +702,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -674,9 +713,22 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
 
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
+
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -687,22 +739,9 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portab
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
 
-CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
-CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj"
-	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c
-
-CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.i"
-	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c > CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c.i
-
-CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.s"
-	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c.s
-
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -715,7 +754,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -728,7 +767,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -741,7 +780,7 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -752,9 +791,61 @@ CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
 
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.obj: ../USB_DEVICE/App/usb_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.obj"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\USB_DEVICE\App\usb_device.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\USB_DEVICE\App\usb_device.c
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.i"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\slam-RM\FreeRTOS-Frame\USB_DEVICE\App\usb_device.c > CMakeFiles\FreeRTOS-Frame.elf.dir\USB_DEVICE\App\usb_device.c.i
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.s"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\USB_DEVICE\App\usb_device.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\USB_DEVICE\App\usb_device.c.s
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: ../USB_DEVICE/App/usbd_cdc_if.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\USB_DEVICE\App\usbd_cdc_if.c
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\slam-RM\FreeRTOS-Frame\USB_DEVICE\App\usbd_cdc_if.c > CMakeFiles\FreeRTOS-Frame.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.i
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\USB_DEVICE\App\usbd_cdc_if.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.s
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: ../USB_DEVICE/App/usbd_desc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\USB_DEVICE\App\usbd_desc.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\USB_DEVICE\App\usbd_desc.c
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_desc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_desc.c.i"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\slam-RM\FreeRTOS-Frame\USB_DEVICE\App\usbd_desc.c > CMakeFiles\FreeRTOS-Frame.elf.dir\USB_DEVICE\App\usbd_desc.c.i
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_desc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_desc.c.s"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\USB_DEVICE\App\usbd_desc.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\USB_DEVICE\App\usbd_desc.c.s
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: ../USB_DEVICE/Target/usbd_conf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj   -c E:\code\slam-RM\FreeRTOS-Frame\USB_DEVICE\Target\usbd_conf.c
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/Target/usbd_conf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/Target/usbd_conf.c.i"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\code\slam-RM\FreeRTOS-Frame\USB_DEVICE\Target\usbd_conf.c > CMakeFiles\FreeRTOS-Frame.elf.dir\USB_DEVICE\Target\usbd_conf.c.i
+
+CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/Target/usbd_conf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/Target/usbd_conf.c.s"
+	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\code\slam-RM\FreeRTOS-Frame\USB_DEVICE\Target\usbd_conf.c -o CMakeFiles\FreeRTOS-Frame.elf.dir\USB_DEVICE\Target\usbd_conf.c.s
+
 CMakeFiles/FreeRTOS-Frame.elf.dir/startup/startup_stm32f427xx.s.obj: CMakeFiles/FreeRTOS-Frame.elf.dir/flags.make
 CMakeFiles/FreeRTOS-Frame.elf.dir/startup/startup_stm32f427xx.s.obj: ../startup/startup_stm32f427xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building ASM object CMakeFiles/FreeRTOS-Frame.elf.dir/startup/startup_stm32f427xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building ASM object CMakeFiles/FreeRTOS-Frame.elf.dir/startup/startup_stm32f427xx.s.obj"
 	E:\Softwares\gcc-arm-none-eabo-9-2019-q4\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\FreeRTOS-Frame.elf.dir\startup\startup_stm32f427xx.s.obj -c E:\code\slam-RM\FreeRTOS-Frame\startup\startup_stm32f427xx.s
 
 # Object files for target FreeRTOS-Frame.elf
@@ -774,7 +865,6 @@ FreeRTOS__Frame_elf_OBJECTS = \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/system_stm32f4xx.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usart.c.obj" \
-"CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usb_otg.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" \
@@ -801,16 +891,24 @@ FreeRTOS__Frame_elf_OBJECTS = \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj" \
+"CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj" \
+"CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj" \
+"CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj" \
+"CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" \
+"CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" \
-"CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
+"CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.obj" \
+"CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj" \
+"CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_desc.c.obj" \
+"CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj" \
 "CMakeFiles/FreeRTOS-Frame.elf.dir/startup/startup_stm32f427xx.s.obj"
 
 # External object files for target FreeRTOS-Frame.elf
@@ -831,7 +929,6 @@ FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/syscalls.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/system_stm32f4xx.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/tim.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usart.c.obj
-FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Core/Src/usb_otg.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
@@ -858,21 +955,29 @@ FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driv
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
-FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usb_device.c.obj
+FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/startup/startup_stm32f427xx.s.obj
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/build.make
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/objects1.rsp
 FreeRTOS-Frame.elf: CMakeFiles/FreeRTOS-Frame.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Linking C executable FreeRTOS-Frame.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\code\slam-RM\FreeRTOS-Frame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking C executable FreeRTOS-Frame.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FreeRTOS-Frame.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/FreeRTOS-Frame.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/code/slam-RM/FreeRTOS-Frame/cmake-build-debug/FreeRTOS-Frame.bin"
